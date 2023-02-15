@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeScreen">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_to_admin"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="391dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="39dp"
+
+        android:gravity="center_horizontal"
+        android:text="@string/username"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="376dp"
+        android:layout_height="129dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="124dp"
+        android:gravity="center_horizontal"
+        android:text="@string/uid"
+        android:textAlignment="center"
+
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uid"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

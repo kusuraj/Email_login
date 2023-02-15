@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EmailLogin</string>
+    <string name="enter_email_id">Enter email Id</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="password">password</string>
+    <string name="re_password">Re-password</string>
+    <string name="register">Create account</string>
+    <string name="email_login">Welcome Back!</string>
+    <string name="enter_your_email">Username</string>
+    <string name="enter_password">password</string>
+    <string name="login">Log in Now</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="registername">Sign Up!</string>
+    <string name="welcome_to_admin"> Welcome User! </string>
+    <string name="username">UserName</string>
+    <string name="login_in_to_your_account">Login in to continue</string>
+    <string name="uid">Uid</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="term_condition"> Terms &amp; Conditions </string>
+    <string name="log_in">Log in</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="enter_email">Enter email</string>
+    <string name="forget_your_password">Forget Password!</string>
+    <string name="back">back</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="read_and_agree_to">read and agree to</string>
+    <string name="remember_me">Remember me</string>
+    <string name="skip">Skip</string>
+    <string name="provide_your_account_s_email_for_which_you_wont_to_reset_your_password">Provide your account\'s email for which you wont to reset your password!</string>
+    <string name="todo">TODO</string>
+    <string name="or_via_social_media">Or via social media</string>
+</resources>
